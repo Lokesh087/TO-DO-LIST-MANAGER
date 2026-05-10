@@ -1,4 +1,4 @@
-                                                                                                   SmartDo
+                                                                        SmartDo
 A smart, beautiful task management app built with React
 Drag-and-drop tasks · Pomodoro timer · Daily habit tracking · Persistent storage
 
