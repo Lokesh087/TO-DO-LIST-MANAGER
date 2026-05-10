@@ -1,0 +1,49 @@
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 14px 24px;
+  border-bottom: 1px solid #ebebf5;
+  background: #fafafe;
+  flex-shrink: 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.val { font-size: 22px; font-weight: 600; color: #1a1a2e; line-height: 1.1; }
+.lbl { font-size: 11px; color: #aaa; margin-top: 2px; }
+
+.divider { width: 1px; height: 32px; background: #ebebf5; }
+
+.progress {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.progressTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.pct { font-size: 13px; font-weight: 600; color: #7F77DD; }
+
+.track {
+  height: 6px;
+  background: #ebebf5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #AFA9EC, #7F77DD);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}

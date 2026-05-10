@@ -1,0 +1,82 @@
+.sidebar {
+  width: 210px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #ebebf5;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 16px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 20px 18px;
+  border-bottom: 1px solid #ebebf5;
+  margin-bottom: 10px;
+}
+
+.brandIcon {
+  font-size: 20px;
+  color: #7F77DD;
+}
+
+.brandName {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a2e;
+  letter-spacing: -0.3px;
+}
+
+.nav { padding: 0 10px; flex: 1; overflow-y: auto; }
+
+.sectionLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+  padding: 0 10px;
+  margin-bottom: 4px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+  font-size: 13.5px;
+  color: #555;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.navItem:hover { background: #f5f4ff; color: #1a1a2e; }
+.navItem.active { background: #EEEDFE; color: #534AB7; font-weight: 500; }
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 11px;
+  background: #f0eff8;
+  color: #7F77DD;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-weight: 500;
+}
