@@ -74,7 +74,7 @@ npm install
 
 # 3. Start the development server
 npm run dev
-Open http://localhost:5173 in your browser.
+Open in your browser.
 Build for Production
 bashnpm run build      # Builds to /dist
 npm run preview    # Preview the production build locally
