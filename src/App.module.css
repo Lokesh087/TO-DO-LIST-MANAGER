@@ -1,7 +1,7 @@
 .layout {
   display: flex;
   min-height: 100vh;
-  background: #F4F3FF;
+  background: #F3F8F5;
 }
 
 .main {
@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
-  background: #F4F3FF;
+  background: #F3F8F5;
 }
 
 .topbar {
@@ -49,16 +49,16 @@
   width: 100%;
   padding: 8px 10px 8px 32px;
   font-size: 13px;
-  border: 1px solid #e4e2f5;
+  border: 1px solid #DCE9E1;
   border-radius: var(--radius-md);
-  background: #fafafe;
+  background: #FBFDFC;
   color: #1a1a2e;
   outline: none;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .search:focus {
-  border-color: #7F77DD;
-  box-shadow: 0 0 0 3px rgba(127,119,221,0.1);
+  border-color: #16845B;
+  box-shadow: 0 0 0 3px rgba(22,132,91,0.12);
 }
 
 .addBtn {
@@ -69,13 +69,13 @@
   font-size: 13.5px;
   font-family: inherit;
   font-weight: 500;
-  background: #7F77DD;
+  background: #16845B;
   color: #fff;
   border: none;
   border-radius: var(--radius-md);
   transition: background 0.15s;
 }
-.addBtn:hover { background: #6b63cc; }
+.addBtn:hover { background: #116B49; }
 
 .filterRow {
   display: flex;
@@ -88,7 +88,7 @@
   font-size: 12.5px;
   padding: 5px 14px;
   border-radius: 12px;
-  border: 1px solid #e4e2f5;
+  border: 1px solid #DCE9E1;
   background: #fff;
   color: #888;
   cursor: pointer;
@@ -96,8 +96,8 @@
   font-weight: 500;
   transition: all 0.15s;
 }
-.chip:hover { border-color: #d0cef0; color: #534AB7; }
-.chip.chipActive { background: #EEEDFE; color: #534AB7; border-color: #AFA9EC; }
+.chip:hover { border-color: #B8D8C5; color: #126B4A; }
+.chip.chipActive { background: #E4F4EA; color: #126B4A; border-color: #A8D7B8; }
 
 .taskArea {
   flex: 1;
@@ -124,8 +124,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  background: #F4F3FF;
-  border-left: 1px solid #e4e2f5;
+  background: #F3F8F5;
+  border-left: 1px solid #DCE9E1;
   overflow-y: auto;
   max-height: 100vh;
   position: sticky;
@@ -139,4 +139,14 @@
 @media (max-width: 720px) {
   .layout { flex-direction: column; }
   .main { min-height: 0; }
+}
+
+
+@media (max-width: 720px) {
+  .topbar { flex-wrap: wrap; padding: 16px; }
+  .heading { flex-basis: 100%; }
+  .searchWrap { max-width: none; min-width: 0; }
+  .addBtn { white-space: nowrap; }
+  .filterRow { overflow-x: auto; padding: 10px 16px; }
+  .taskArea { padding: 10px 16px 24px; }
 }
