@@ -3,10 +3,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --purple: #7F77DD;
-  --purple-light: #EEEDFE;
-  --purple-mid: #AFA9EC;
-  --purple-dark: #534AB7;
+  --purple: #16845B;
+  --purple-light: #E4F4EA;
+  --purple-mid: #A8D7B8;
+  --purple-dark: #126B4A;
   --teal: #1D9E75;
   --teal-light: #E1F5EE;
   --coral: #D85A30;
@@ -29,7 +29,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background: #F4F3FF;
+  background: #F3F8F5;
   color: #1a1a2e;
   min-height: 100vh;
   font-size: 14px;
